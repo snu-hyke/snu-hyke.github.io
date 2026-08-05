@@ -1,4 +1,4 @@
 # snu-hyke.github.io
 
-Migrated from the WordPress site at hyke.snu.ac.kr.
-Currently carrying the home page only, for theme review.
+HYKE-Hwarang Research Group website.
+Migrated from the WordPress site at hyke.snu.ac.kr (export 2026-08-05).

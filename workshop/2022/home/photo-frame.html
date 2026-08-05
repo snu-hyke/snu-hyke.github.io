@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- 코드출처: https://eunyoe.tistory.com/66 -->
+	<meta charset="UTF-8">
+	<meta name="robots" content="noindex,nofollow">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<H2>Group photo</H2>
+<iframe src="photo_1.html" id="iframe" onload="Height();" frameborder="0" scrolling="no" style="overflow-x:hidden; overflow:auto; width:90%; min-height:600px;"></iframe>
+<H2>Chair</H2>
+<iframe src="photo_2.html" id="iframe" onload="Height();" frameborder="0" scrolling="no" style="overflow-x:hidden; overflow:auto; width:90%; min-height:600px;"></iframe>
+<H2>Speaker(day1)</H2>
+<iframe src="photo_3.html" id="iframe" onload="Height();" frameborder="0" scrolling="no" style="overflow-x:hidden; overflow:auto; width:90%; min-height:600px;"></iframe>
+
+<H2>Speaker(day2)</H2>
+<iframe src="photo_4.html" id="iframe" onload="Height();" frameborder="0" scrolling="no" style="overflow-x:hidden; overflow:auto; width:90%; min-height:600px;"></iframe>
+
+<H2>Speaker(day3)</H2>
+<iframe src="photo_5.html" id="iframe" onload="Height();" frameborder="0" scrolling="no" style="overflow-x:hidden; overflow:auto; width:90%; min-height:600px;"></iframe>
+
+<H2>Speaker(day4)</H2>
+<iframe src="photo_6.html" id="iframe" onload="Height();" frameborder="0" scrolling="no" style="overflow-x:hidden; overflow:auto; width:90%; min-height:600px;"></iframe>
+
+<script type="text/javascript">
+	function calcHeight() {
+		var the_height =
+			document.getElementById('iframe').contentWindow.
+		document.body.scrollHeight;
+
+		document.getElementById('iframe').height =
+			the_height;
+
+		document.getElementById('iframe').style.overflow = "hidden";
+	}
+</script>
+
+</body>
+</html>
+
+
+
