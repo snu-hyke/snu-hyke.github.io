@@ -14,7 +14,15 @@
 </div>
 
 <script>
-(function () {
+// This include sits above {{ content }} in the layout, so it must wait for the
+// rest of the document before it can tell whether it is on the /search/ page.
+(function (init) {
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
+  }
+})(function () {
   var input   = document.getElementById('site-search');
   var results = document.getElementById('search-results');
   var status  = document.getElementById('search-status');
@@ -183,5 +191,5 @@
 
   // Allow linking straight to a search: /?q=kuramoto
   if (q0) { input.value = q0; loadIndex(function () { render(q0); }); }
-})();
+});
 </script>
