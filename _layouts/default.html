@@ -1,14 +1,109 @@
-<!-- TEST-ONLY fallback layout. Replace with the real theme's layout on merge. -->
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: 'en' }}">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{ page.title | default: site.title }}</title>
+  <title>{% if page.title %}{{ page.title }} &middot; {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | truncate: 160 }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;700;900&family=Bitter:wght@400;700&display=swap">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | relative_url }}">
 </head>
 <body>
-  <main>
-    {{ content }}
-  </main>
+
+<div class="header-area">
+  <div class="container">
+    <h1 class="site-title"><a href="{{ '/' | relative_url }}" rel="home">{{ site.title }}</a></h1>
+    <h2 class="site-description">{{ site.description }}</h2>
+  </div>
+</div>
+
+<div class="mainmenu">
+  <div class="container">
+    <ul class="navbar-nav">
+      {%- for item in site.data.nav %}
+      {%- if item.children %}
+      <li class="dropdown">
+        <button type="button" class="nav-toggle" aria-haspopup="true" aria-expanded="false">
+          {{ item.label }} <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu">
+          {%- for child in item.children %}
+          <li><a href="{{ child.url | relative_url }}">{{ child.label }}</a></li>
+          {%- endfor %}
+        </ul>
+      </li>
+      {%- else %}
+      <li{% if page.url == item.url %} class="current"{% endif %}>
+        <a href="{{ item.url | relative_url }}">{{ item.label }}</a>
+      </li>
+      {%- endif %}
+      {%- endfor %}
+    </ul>
+  </div>
+</div>
+
+<div class="site-content">
+  <div class="container">
+    <div class="row">
+      <div class="col-main">
+        {{ content }}
+      </div>
+      <div class="col-side">
+        <div class="main-sidebar">
+          <aside class="widget widget_categories">
+            <h1 class="widget-title">Informations</h1>
+            <ul>
+              {%- for cat in site.data.categories %}
+              <li><a href="{{ cat.url | relative_url }}">{{ cat.label }}</a></li>
+              {%- endfor %}
+            </ul>
+          </aside>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>{{ site.title }} &middot; {{ site.description }}</p>
+  </div>
+</footer>
+
+<script>
+// Dropdown opens on click (matches the original Bootstrap navbar), not hover.
+(function () {
+  var toggles = document.querySelectorAll('.navbar-nav .nav-toggle');
+  function closeAll(except) {
+    document.querySelectorAll('.navbar-nav > li.open').forEach(function (li) {
+      if (li !== except) {
+        li.classList.remove('open');
+        var b = li.querySelector('.nav-toggle');
+        if (b) { b.setAttribute('aria-expanded', 'false'); }
+      }
+    });
+  }
+  toggles.forEach(function (btn) {
+    btn.addEventListener('click', function (e) {
+      e.preventDefault();
+      e.stopPropagation();
+      var li = btn.parentElement;
+      var willOpen = !li.classList.contains('open');
+      closeAll(li);
+      li.classList.toggle('open', willOpen);
+      btn.setAttribute('aria-expanded', willOpen ? 'true' : 'false');
+    });
+  });
+  document.addEventListener('click', function () { closeAll(null); });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') { closeAll(null); }
+  });
+})();
+</script>
+
 </body>
 </html>

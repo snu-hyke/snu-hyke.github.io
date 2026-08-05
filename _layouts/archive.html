@@ -1,0 +1,39 @@
+---
+layout: default
+---
+{%- comment -%}
+  Replaces the WordPress blog index that the "Activities" page rendered.
+  When page.category is set, only that category is listed (used by the
+  sidebar's Informations widget links).
+{%- endcomment -%}
+<article class="page">
+  <header class="entry-header">
+    <h1 class="entry-title">{{ page.title }}</h1>
+  </header>
+  <div class="entry-content">
+    {{ content }}
+
+    {%- if page.category %}
+    {%- assign listed = site.categories[page.category] %}
+    {%- else %}
+    {%- assign listed = site.posts %}
+    {%- endif %}
+
+    {%- if listed and listed.size > 0 %}
+    {%- assign posts_by_year = listed | group_by_exp: "p", "p.date | date: '%Y'" %}
+    {%- for year in posts_by_year %}
+    <h2 class="archive-year">{{ year.name }}</h2>
+    <ul class="post-list">
+      {%- for post in year.items %}
+      <li>
+        <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y-%m-%d" }}</time>
+      </li>
+      {%- endfor %}
+    </ul>
+    {%- endfor %}
+    {%- else %}
+    <p>No entries yet.</p>
+    {%- endif %}
+  </div>
+</article>

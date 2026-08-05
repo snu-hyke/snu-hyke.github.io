@@ -1,0 +1,7 @@
+# Sidebar 'Informations' widget, from the WordPress categories.
+- label: "HYKE seminar"
+  url: "/category/hyke-seminar/"
+- label: "Invited talks"
+  url: "/category/invited-talks/"
+- label: "News"
+  url: "/category/news/"

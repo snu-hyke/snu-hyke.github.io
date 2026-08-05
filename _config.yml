@@ -1,16 +1,14 @@
-# snu-hyke.github.io — GitHub Pages (user/organization site)
-# NOTE: this scaffolding currently carries only the migration TEST page.
-# Layouts under _layouts/ are minimal fallbacks; swap in a real theme later.
+# snu-hyke.github.io — GitHub Pages (organization site)
+# Migrated from WordPress (hyke.snu.ac.kr) export 2026-08-05.
 
 title: "HYKE-Hwarang Research Group"
 description: "Department of Mathematical Sciences, Seoul National University"
 lang: ko-KR
 
-# Organization site => served at the domain root, so baseurl is empty.
+# Organization site => served at the domain root.
 url: "https://snu-hyke.github.io"
 baseurl: ""
 
-# Pages collection (used by the full migration later; harmless now).
 collections:
   pages:
     output: true
@@ -27,7 +25,14 @@ defaults:
     values:
       layout: page
 
-# Don't let helper/report files leak into the build if added later.
+# Posts keep the date-based permalink recorded in url-redirect-map.csv.
+permalink: /:year/:month/:day/:title/
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Keep migration inputs and reports out of the built site.
 exclude:
   - "*.xml"
   - uploads/
@@ -35,3 +40,11 @@ exclude:
   - reports/
   - logs/
   - README.md
+  - Gemfile
+  - Gemfile.lock
+
+# The workshop mini-sites are pre-built static HTML: copy them verbatim.
+keep_files:
+  - workshop
+include:
+  - workshop
