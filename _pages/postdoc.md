@@ -45,7 +45,7 @@ original_url: "http://hyke.snu.ac.kr/?page_id=56"
 <span style="font-size: 10pt;"> <em>Postdoc</em></span><br />
 <span style="font-size: 9pt;">e-mail: cz1668 [at] snu [dot] ac [dot] kr</span><br />
 <span style="font-size: 10pt;"><em>Research interest:</em></span><br />
-<span style="font-size: 9pt;">- Collective dynamics<br />
+<span style="font-size: 9pt;">- Collective dynamics<br /><br />
 - Integrable systems</span></td>
 </tr>
 </tbody>

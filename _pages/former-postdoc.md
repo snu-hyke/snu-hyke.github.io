@@ -190,10 +190,10 @@ original_url: "http://hyke.snu.ac.kr/?page_id=73"
 <td><strong>Wook Yoon</strong><br />
 <span style="font-size: 10pt;">Department of Mathematics, Technical University of Munich<br />
 <em>Postdoc</em></span><br />
-<span style="font-size: 9pt;">homepage: <a href="https://sites.google.com/view/wookyoon-math" target="_blank" rel="noopener">https://sites.google.com/view/wookyoon-math</a><br />
+<span style="font-size: 9pt;">homepage: <a href="https://sites.google.com/view/wookyoon-math" target="_blank" rel="noopener">https://sites.google.com/view/wookyoon-math</a><br /><br />
 <span style="font-size: 9pt;">e-mail: ynwk178 [at] snu [dot] ac [dot] kr</span><br />
 <span style="font-size: 10pt;"><em>Research interest:</em></span><br />
-<span style="font-size: 9pt;">- Asymptotic analysis of multi-agent systems<br />
+<span style="font-size: 9pt;">- Asymptotic analysis of multi-agent systems<br /><br />
 - Particle based optimization</span></span></td>
 </tr>
 <tr style="border: 0px; height: 200px; vertical-align: top;">
@@ -201,11 +201,11 @@ original_url: "http://hyke.snu.ac.kr/?page_id=73"
 <td><strong>Seungjun Lee</strong><br />
 <span style="font-size: 10pt;">Department of Mathematics, Hanyang University<br />
 <em>Postdoc</em></span><br />
-<span style="font-size: 9pt;">homepage: <a href="https://sites.google.com/view/seungjunlee-math" target="_blank" rel="noopener">https://sites.google.com/view/seungjunlee-math</a><br />
+<span style="font-size: 9pt;">homepage: <a href="https://sites.google.com/view/seungjunlee-math" target="_blank" rel="noopener">https://sites.google.com/view/seungjunlee-math</a><br /><br />
 e-mail: sjlee0218 [at] snu [dot] ac [dot] kr</span><br />
 <span style="font-size: 10pt;"><em>Research interest:</em></span><br />
-<span style="font-size: 9pt;">- Asymptotic analysis of multi-agent systems<br />
-- Control theory, optimization<br />
+<span style="font-size: 9pt;">- Asymptotic analysis of multi-agent systems<br /><br />
+- Control theory, optimization<br /><br />
 - Stochastic collective dynamics</span></td>
 </tr>
 </tbody>

@@ -36,9 +36,9 @@ original_url: "http://hyke.snu.ac.kr/?page_id=1505"
 </p><ul>
 <li><span style="font-size: 15pt;"><strong>Visiting Students</strong></span></li>
 </ul>
-<table<br />
-    style="border:0; width:100%; text-align:left; margin:auto; border-collapse:separate; border-spacing:0 20px;"<br />
-    cellspacing="0"<br />
+<table
+    style="border:0; width:100%; text-align:left; margin:auto; border-collapse:separate; border-spacing:0 20px;"
+    cellspacing="0"
     cellpadding="10">
 <tbody>
 <tr style="border: 0px; height: 200px; vertical-align: top;">
@@ -50,8 +50,8 @@ original_url: "http://hyke.snu.ac.kr/?page_id=1505"
 <span style="font-size: 9pt;">e-mail: rong103 [at] snu [dot] ac [dot] kr</span><br />
 <span style="font-size: 10pt;"><em>Visiting period: 2026.06.15 ~ 2026.12.15 </em></span><br />
 <span style="font-size: 10pt;"><em>Research interest:</em></span><br />
-<span style="font-size: 9pt;">- Nonlinear Partial Differential Equations <br />
-- Klein–Gordon Equations <br />
+<span style="font-size: 9pt;">- Nonlinear Partial Differential Equations <br /><br />
+- Klein–Gordon Equations <br /><br />
 - Relativistic Quantum Hydrodynamic Systems</span></td>
 </tr>
 <tr style="border: 0px; height: 200px; vertical-align: top;">
@@ -73,8 +73,8 @@ original_url: "http://hyke.snu.ac.kr/?page_id=1505"
 <span style="font-size: 9pt;">e-mail: os123220 [at] snu [dot] ac [dot] kr</span><br />
 <span style="font-size: 10pt;"><em>Visiting period: 2026.8.1 ~ 2027.7.31 </em></span><br />
 <span style="font-size: 10pt;"><em>Research interest:</em></span><br />
-<span style="font-size: 9pt;">- Mean field control <br />
-- multi-agent systems <br />
+<span style="font-size: 9pt;">- Mean field control <br /><br />
+- multi-agent systems <br /><br />
 - machine learning</span></td>
 </tr>
 <tr style="border: 0px; height: 200px; vertical-align: top;">
@@ -88,4 +88,4 @@ original_url: "http://hyke.snu.ac.kr/?page_id=1505"
 <span style="font-size: 9pt;">- High-dimensional Kuramoto model </span></td>
 </tr>
 </tbody>
-
+</table>
