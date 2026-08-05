@@ -14,8 +14,10 @@
 </div>
 
 <script>
-// This include sits above {{ content }} in the layout, so it must wait for the
-// rest of the document before it can tell whether it is on the /search/ page.
+// This include is rendered above the page content in the layout, so it must
+// wait for the rest of the document before it can tell whether it is on the
+// /search/ page. (Do not write Liquid output tags in these comments: Liquid
+// substitutes them, which would splice the page into this script.)
 (function (init) {
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', init);
