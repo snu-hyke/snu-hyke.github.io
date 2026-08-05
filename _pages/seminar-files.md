@@ -9,7 +9,6 @@ original_url: "http://hyke.snu.ac.kr/?page_id=476"
 <p>The presentation materials for our weekly HYKE seminar will be uploaded here.</p>
 <p><!--주석입니다: Visual과 Text를 오가면 스페이싱이 생기는 에러가 있는데 어떻게 해야할지 모르겠습니다.. text만 보시고 수정하면 문제 없고 혹은
 수정하시고 빈 텍스트 페이지에 소스코드 전체를 붙여넣으신 후%n..
-
 를 공백으로 찾아바꾸기 하시면 되겠습니다. --></p>
 <p><strong>2026 Spring Seminar</strong><br />
 <strong>Date</strong>: March 11th, 2026 ~ (every Wednesday)<br />

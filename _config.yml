@@ -24,6 +24,20 @@ defaults:
       type: pages
     values:
       layout: page
+  # Keep uploads and the pre-built mini-site fragments out of sitemap.xml;
+  # it should list pages, not 200-odd PDFs and frameset parts.
+  - scope:
+      path: "assets"
+    values:
+      sitemap: false
+  - scope:
+      path: "workshop"
+    values:
+      sitemap: false
+  - scope:
+      path: "FMQT"
+    values:
+      sitemap: false
 
 # Posts keep the date-based permalink recorded in url-redirect-map.csv.
 permalink: /:year/:month/:day/:title/

@@ -14,5 +14,4 @@ original_url: "http://hyke.snu.ac.kr/?p=1071"
 <p>Congratulations with all my heart to Prof. Kim, and I would appreciate it if other team members would send their congratulations in person.</p>
 <p>Everyone celebrated his achievement and enjoyed dinner at November 17th, 2020.</p>
 <p><!--<img class="alignnone" src="{{ '/assets/uploads/pictures/201117.jpeg' | relative_url }}" width="700" height="850" />
-
 --></p>

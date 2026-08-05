@@ -13,5 +13,4 @@ original_url: "http://hyke.snu.ac.kr/?p=1558"
 <p><img class="alignnone" src="{{ '/assets/uploads/pictures/20220113_3.JPG' | relative_url }}" width="700" height="850" /></p>
 <p><img class="alignnone" src="{{ '/assets/uploads/pictures/20220113_4.JPG' | relative_url }}" width="700" height="850" /></p>
 <p><!--<img class="alignnone" src="{{ '/assets/uploads/pictures/20220113_6.JPG' | relative_url }}" width="700" height="850" />
-
 --></p>

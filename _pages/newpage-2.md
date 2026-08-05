@@ -106,12 +106,10 @@ original_url: "http://hyke.snu.ac.kr/?page_id=2578"
         Additional sample paragraph for the abstract can be written here if a longer description is needed.
         You may continue with background, motivation, or further explanation of the talk.
       </p>
-
       <p style="margin-top: 12px;">
         This section may also include more details on the main techniques, applications, or related problems,
         depending on how much information you would like to provide on the webpage.
       </p>
-
       <p style="margin-top: 12px;">
         Final sample paragraph for the abstract. Replace all of this with the actual content later.
       </p>-->

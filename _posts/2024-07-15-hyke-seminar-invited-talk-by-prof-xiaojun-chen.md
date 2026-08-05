@@ -15,5 +15,4 @@ Location : 27-325</p>
 <p><img class="alignnone" src="{{ '/assets/uploads/pictures/20240715_1.jpg' | relative_url }}" width="700" height="850" /></p>
 <p><img class="alignnone" src="{{ '/assets/uploads/pictures/20240715_2.jpg' | relative_url }}" width="700" height="850" /></p>
 <p><!--<img class="alignnone" src="{{ '/assets/uploads/pictures/20240715_3.jpg' | relative_url }}" width="700" height="850" />
-
 --></p>

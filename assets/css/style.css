@@ -208,6 +208,53 @@ a:hover { text-decoration: none; color: var(--link-hover); }
   .search-status { text-align: center; }
 }
 
+.search-all { background: #fafafa; text-align: center; }
+.search-all a { font-family: "Raleway", sans-serif; font-size: 13px; font-weight: 700; }
+
+/* ---------- /search/ results page --------------------------------------- */
+.searchpage-form { margin-bottom: 14px; }
+.searchpage-input {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  padding: 10px 14px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  background: #fff;
+  color: var(--text);
+}
+.searchpage-input:focus { outline: none; border-color: #999; }
+.searchpage-status { color: var(--muted); font-size: 14px; margin: 0 0 18px; }
+
+.search-group { margin-bottom: 30px; }
+.search-group-title {
+  font-family: "Bitter", Georgia, serif;
+  font-size: 17px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0 0 8px;
+  padding-bottom: 6px;
+  border-bottom: 2px solid #000;
+}
+.search-group-count {
+  font-family: "Raleway", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--muted);
+  text-transform: none;
+  margin-left: 4px;
+}
+.search-results-list { list-style: none; margin: 0; padding: 0; }
+.search-results-list li { padding: 12px 0; border-bottom: 1px solid var(--border); }
+.search-results-list li:last-child { border-bottom: 0; }
+.search-results-list > li > a {
+  font-family: "Bitter", Georgia, serif;
+  font-size: 17px;
+  font-weight: 700;
+  color: #000;
+}
+.search-results-list > li > a:hover { color: var(--link-hover); }
+
 /* ---------- content ----------------------------------------------------- */
 .site-content { padding-bottom: 40px; }
 
