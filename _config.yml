@@ -1,0 +1,37 @@
+# snu-hyke.github.io — GitHub Pages (user/organization site)
+# NOTE: this scaffolding currently carries only the migration TEST page.
+# Layouts under _layouts/ are minimal fallbacks; swap in a real theme later.
+
+title: "HYKE-Hwarang Research Group"
+description: "Department of Mathematical Sciences, Seoul National University"
+lang: ko-KR
+
+# Organization site => served at the domain root, so baseurl is empty.
+url: "https://snu-hyke.github.io"
+baseurl: ""
+
+# Pages collection (used by the full migration later; harmless now).
+collections:
+  pages:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: page
+
+# Don't let helper/report files leak into the build if added later.
+exclude:
+  - "*.xml"
+  - uploads/
+  - scripts/
+  - reports/
+  - logs/
+  - README.md
