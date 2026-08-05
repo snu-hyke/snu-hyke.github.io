@@ -10,4 +10,4 @@ original_url: "http://hyke.snu.ac.kr/?p=2699"
 ---
 
 <p>There will be a one-day workshop as follows.</p>
-<p><embed src="{{ '/assets/uploads/pictures/Workshop(260529).pdf' | relative_url }}" type="application/pdf" width="500" height="730"></embed></p>
+<p><embed src="{{ '/assets/uploads/pictures/Workshop(260529).pdf' | relative_url }}" type="application/pdf" width="500" height="730"></p>

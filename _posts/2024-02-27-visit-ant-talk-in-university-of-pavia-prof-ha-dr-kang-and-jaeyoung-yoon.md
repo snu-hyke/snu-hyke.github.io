@@ -19,4 +19,4 @@ original_url: "http://hyke.snu.ac.kr/?p=1897"
 <p><img class="alignnone" src="{{ '/assets/uploads/pictures/240219_2.jpg' | relative_url }}" width="700" height="850" /></p>
 <p><img class="alignnone" src="{{ '/assets/uploads/pictures/240219_3.JPG' | relative_url }}" width="700" height="850" /></p>
 <p>&nbsp;</p>
-<p><embed src="{{ '/assets/uploads/pictures/IK.pdf' | relative_url }}" type="application/pdf" width="500" height="730"></embed></p>
+<p><embed src="{{ '/assets/uploads/pictures/IK.pdf' | relative_url }}" type="application/pdf" width="500" height="730"></p>

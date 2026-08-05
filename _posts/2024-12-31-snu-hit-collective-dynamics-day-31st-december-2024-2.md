@@ -10,4 +10,4 @@ original_url: "http://hyke.snu.ac.kr/?p=2224"
 ---
 
 <p>There will be a one-day workshop with visitors from Harbin Institute of Technology, China on 31st December, 2024.</p>
-<p><embed src="{{ '/assets/uploads/pictures/Collective%20Dynamics%20Day(Dec2024).pdf' | relative_url }}" type="application/pdf" width="500" height="730"></embed></p>
+<p><embed src="{{ '/assets/uploads/pictures/Collective%20Dynamics%20Day(Dec2024).pdf' | relative_url }}" type="application/pdf" width="500" height="730"></p>

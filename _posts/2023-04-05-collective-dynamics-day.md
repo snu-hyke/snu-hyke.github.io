@@ -10,5 +10,5 @@ original_url: "http://hyke.snu.ac.kr/?p=1638"
 ---
 
 <p>There will be the one-day workshop as in the below.</p>
-<p><embed src="{{ '/assets/uploads/seminarfiles/workshop(20230405).pdf' | relative_url }}" type="application/pdf" width="500" height="730"></embed></p>
+<p><embed src="{{ '/assets/uploads/seminarfiles/workshop(20230405).pdf' | relative_url }}" type="application/pdf" width="500" height="730"></p>
 <p><!-- <p>*This poster was designed by Giuseppe Arnone.</p>--></p>
