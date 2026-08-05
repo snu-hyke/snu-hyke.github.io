@@ -46,5 +46,11 @@ exclude:
 # The workshop mini-sites are pre-built static HTML: copy them verbatim.
 keep_files:
   - workshop
+  - FMQT
+
 include:
   - workshop
+  - FMQT
+  # Jekyll drops anything whose name starts with "_", which would 404 this
+  # image referenced by the 2018 graduation post. Keep the original filename.
+  - "_DSC4024.jpg"
