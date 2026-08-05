@@ -134,6 +134,27 @@
     results.hidden = hits.length === 0;
   }
 
+  var q0 = new URLSearchParams(location.search).get('q');
+
+  // On /search/ the page shows full results grouped by topic. Showing the
+  // preview list as well would repeat the same hits twice, so here the box
+  // just drives the page's own search instead of opening a dropdown.
+  var pageSearch = document.getElementById('searchpage-input');
+  if (pageSearch) {
+    if (q0) { input.value = q0; }
+    input.addEventListener('input', function () {
+      pageSearch.value = input.value;
+      pageSearch.dispatchEvent(new Event('input', { bubbles: true }));
+    });
+    clearBtn.addEventListener('click', function () {
+      input.value = '';
+      pageSearch.value = '';
+      pageSearch.dispatchEvent(new Event('input', { bubbles: true }));
+      input.focus();
+    });
+    return;
+  }
+
   var timer = null;
   function onInput() {
     var q = input.value.trim();
@@ -151,11 +172,16 @@
     if (e.key === 'Escape') { input.value = ''; render(''); }
   });
 
-  // Allow linking straight to a search: /?q=kuramoto — but not on /search/,
-  // which renders the same query itself and would otherwise show it twice.
-  var onSearchPage = !!document.getElementById('search-page');
-  var q0 = new URLSearchParams(location.search).get('q');
-  if (q0 && !onSearchPage) { input.value = q0; loadIndex(function () { render(q0); }); }
-  else if (q0) { input.value = q0; }
+  // Submitting navigates to /search/; clear the preview so it cannot linger
+  // behind the new page during the load.
+  document.querySelector('.search-form').addEventListener('submit', function () {
+    render('');
+  });
+  results.addEventListener('click', function (e) {
+    if (e.target.closest('.search-all')) { render(''); }
+  });
+
+  // Allow linking straight to a search: /?q=kuramoto
+  if (q0) { input.value = q0; loadIndex(function () { render(q0); }); }
 })();
 </script>
