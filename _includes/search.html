@@ -1,0 +1,151 @@
+<!-- Site search: a search box under the menu, backed by /search.json.
+     Everything runs in the browser, which is all a static site allows. -->
+<div class="searchbar">
+  <div class="container">
+    <form class="search-form" role="search" onsubmit="return false;">
+      <label class="sr-only" for="site-search">Search posts and pages</label>
+      <input type="search" id="site-search" class="search-input"
+             placeholder="Search posts and pages…" autocomplete="off">
+      <button type="button" class="search-clear" aria-label="Clear search">&times;</button>
+    </form>
+    <div id="search-status" class="search-status" hidden></div>
+    <ul id="search-results" class="search-results" hidden></ul>
+  </div>
+</div>
+
+<script>
+(function () {
+  var input   = document.getElementById('site-search');
+  var results = document.getElementById('search-results');
+  var status  = document.getElementById('search-status');
+  var clearBtn = document.querySelector('.search-clear');
+  var index = null, loading = false, pending = null;
+
+  var INDEX_URL = '{{ "/search.json" | relative_url }}';
+  var MAX_RESULTS = 40;
+
+  function loadIndex(cb) {
+    if (index) { cb(); return; }
+    if (loading) { pending = cb; return; }
+    loading = true;
+    status.hidden = false;
+    status.textContent = 'Loading search index…';
+    fetch(INDEX_URL)
+      .then(function (r) { if (!r.ok) { throw new Error(r.status); } return r.json(); })
+      .then(function (data) {
+        index = data; loading = false;
+        status.hidden = true;
+        cb(); if (pending) { var p = pending; pending = null; p(); }
+      })
+      .catch(function () {
+        // Drop any queued callback too, so the next keystroke retries
+        // instead of waiting on a request that already failed.
+        loading = false;
+        pending = null;
+        status.hidden = false;
+        status.textContent = 'Could not load the search index.';
+      });
+  }
+
+  function escapeHtml(s) {
+    return String(s).replace(/[&<>"']/g, function (c) {
+      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
+    });
+  }
+
+  // Snippet around the first match, so results show why they matched.
+  function snippet(body, terms) {
+    if (!body) { return ''; }
+    var low = body.toLowerCase(), at = -1;
+    for (var i = 0; i < terms.length; i++) {
+      var p = low.indexOf(terms[i]);
+      if (p !== -1 && (at === -1 || p < at)) { at = p; }
+    }
+    if (at === -1) { return escapeHtml(body.slice(0, 140)) + '…'; }
+    var start = Math.max(0, at - 60);
+    var text = (start > 0 ? '…' : '') + body.slice(start, start + 180) + '…';
+    var out = escapeHtml(text);
+    terms.forEach(function (t) {
+      if (!t) { return; }
+      var re = new RegExp('(' + t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ')', 'gi');
+      out = out.replace(re, '<mark>$1</mark>');
+    });
+    return out;
+  }
+
+  function score(item, terms) {
+    var title = (item.t || '').toLowerCase();
+    var body  = (item.b || '').toLowerCase();
+    var cats  = (item.c || '').toLowerCase();
+    var total = 0;
+    for (var i = 0; i < terms.length; i++) {
+      var t = terms[i];
+      if (!t) { continue; }
+      var hit = 0;
+      if (title.indexOf(t) !== -1) { hit += 10; }
+      if (cats.indexOf(t) !== -1) { hit += 4; }
+      var n = body.split(t).length - 1;
+      if (n) { hit += Math.min(n, 5); }
+      if (!hit) { return 0; }        // every term must appear somewhere
+      total += hit;
+    }
+    return total;
+  }
+
+  function render(query) {
+    var terms = query.toLowerCase().split(/\s+/).filter(Boolean);
+    if (!terms.length) {
+      results.hidden = true; results.innerHTML = '';
+      status.hidden = true;
+      return;
+    }
+    var hits = [];
+    for (var i = 0; i < index.length; i++) {
+      var s = score(index[i], terms);
+      if (s > 0) { hits.push({ item: index[i], s: s }); }
+    }
+    hits.sort(function (a, b) {
+      if (b.s !== a.s) { return b.s - a.s; }
+      return (b.item.d || '').localeCompare(a.item.d || '');
+    });
+
+    status.hidden = false;
+    status.textContent = hits.length
+      ? hits.length + ' result' + (hits.length === 1 ? '' : 's') +
+        (hits.length > MAX_RESULTS ? ' (showing first ' + MAX_RESULTS + ')' : '')
+      : 'No results for “' + query + '”.';
+
+    results.innerHTML = hits.slice(0, MAX_RESULTS).map(function (h) {
+      var it = h.item;
+      var meta = [it.d, it.c].filter(Boolean).join(' · ');
+      return '<li>' +
+        '<a href="' + it.u + '">' + escapeHtml(it.t) + '</a>' +
+        (meta ? '<span class="search-meta">' + escapeHtml(meta) + '</span>' : '') +
+        '<p class="search-snippet">' + snippet(it.b, terms) + '</p>' +
+        '</li>';
+    }).join('');
+    results.hidden = hits.length === 0;
+  }
+
+  var timer = null;
+  function onInput() {
+    var q = input.value.trim();
+    clearTimeout(timer);
+    if (!q) { render(''); return; }
+    timer = setTimeout(function () { loadIndex(function () { render(q); }); }, 150);
+  }
+
+  input.addEventListener('input', onInput);
+  input.addEventListener('focus', function () { loadIndex(function () {}); });
+  clearBtn.addEventListener('click', function () {
+    input.value = ''; render(''); input.focus();
+  });
+  input.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') { input.value = ''; render(''); }
+  });
+
+  // Allow linking straight to a search: /?q=kuramoto
+  var q0 = new URLSearchParams(location.search).get('q');
+  if (q0) { input.value = q0; loadIndex(function () { render(q0); }); }
+})();
+</script>

@@ -22,6 +22,6 @@ Chapter 2: Hansol Park and Jinwook Jung<br />
 Chapter 3. Woojoo Shim and Dohyun Kim<br />
 Chapter 4. Chanho Min<br />
 Chapter 5. Doheon kim, Kyunghoo Moon and Jeongho Kim<br />
-Chapter 6. Jaeseung Lee and Dr.Yinglong Zhang</p>
+Chapter 6. Jaeseung Lee and Dr.Yinglong Zhang</span></p>
 <p></p>
 <p><span style="font-size: 10pt;">If you want to join our seminar, please contact Woojoo Shim.</span> <span style="font-size: 9pt;"> cosmo.shim [at] gmail [dot] com</span></p>

@@ -33,7 +33,7 @@ original_url: "http://hyke.snu.ac.kr/?page_id=1505"
 </tbody>
 </table>
 <p>&nbsp;
-<ul>
+</p><ul>
 <li><span style="font-size: 15pt;"><strong>Visiting Students</strong></span></li>
 </ul>
 <table<br />
@@ -88,4 +88,4 @@ original_url: "http://hyke.snu.ac.kr/?page_id=1505"
 <span style="font-size: 9pt;">- High-dimensional Kuramoto model </span></td>
 </tr>
 </tbody>
-</p>
+

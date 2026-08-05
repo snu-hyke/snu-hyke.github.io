@@ -19,7 +19,7 @@ original_url: "http://hyke.snu.ac.kr/?page_id=68"
 <span style="font-size: 10pt;"><em>Research interest:</em></span><br />
 <span style="font-size: 9pt;">- Collective dynamics and synchronization<br />
 - Numerical methods for differential equations<br />
-- Long-time behavior and stability of interacting particle systems</span></td>
+- Long-time behavior and stability of interacting particle systems</span></span></td>
 </tr>
 <tr style="border: 0px; height: 200px; vertical-align: top;">
 <td style="width: 150px;"><img class="alignnone size-full" style="max-height: 180px; max-width: 135px;" src="{{ '/assets/uploads/profile/JMLee.jpg' | relative_url }}" alt="JMLee" /></td>

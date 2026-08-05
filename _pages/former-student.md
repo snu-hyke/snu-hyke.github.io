@@ -126,7 +126,7 @@ e-mail: jinyeongpark [at] hanyang [dot] ac [dot] kr</span><br />
 <span style="font-size: 9pt;"> - Collective dynamics<br />
 - Synchronization<br />
 - Numerical analysis
-<p></span></td>
+<p></p></span></td>
 </tr>
 <tr style="border: 0px; height: 200px; vertical-align: top;">
 <td style="width: 150px;"><img class="alignnone size-full" style="max-height: 180px; max-width: 135px;" src="{{ '/assets/uploads/profile/dnam.jpg' | relative_url }}" alt="dnam" /></td>
@@ -139,7 +139,7 @@ e-mail: jinyeongpark [at] hanyang [dot] ac [dot] kr</span><br />
 <span style="font-size: 9pt;"> - Stochastic dynamics<br />
 - Synchronization<br />
 - Numerical analysis
-<p></span></span></td>
+<p></p></span></span></td>
 </tr>
 <tr style="border: 0px; height: 200px; vertical-align: top;">
 <td style="width: 150px;"><img class="alignnone" style="max-height: 180px; max-width: 135px;" src="{{ '/assets/uploads/profile/ljs.jpg' | relative_url }}" alt="jaes" width="157" height="209" /></td>
@@ -152,7 +152,7 @@ e-mail: jinyeongpark [at] hanyang [dot] ac [dot] kr</span><br />
 - Nonlinear PDE<br />
 - Control Theory<br />
 - Optimization Problem
-<p></span></span></td>
+<p></p></span></span></td>
 </tr>
 <tr style="border: 0px; height: 200px; vertical-align: top;">
 <td style="width: 150px;"><img class="alignnone size-full" style="max-height: 180px; max-width: 135px;" src="{{ '/assets/uploads/profile/chanho.jpg' | relative_url }}" alt="chanho" /></td>
@@ -165,7 +165,7 @@ e-mail: jinyeongpark [at] hanyang [dot] ac [dot] kr</span><br />
 - Synchronization<br />
 - Numerical analysis<br />
 - Brownian motion
-<p></span></td>
+<p></p></span></td>
 </tr>
 <tr style="border: 0px; height: 200px; vertical-align: top;">
 <td style="width: 150px;"><img class="alignnone size-full" style="max-height: 180px; max-width: 135px;" src="{{ '/assets/uploads/profile/dohy2.png' | relative_url }}" alt="dohy" /></td>
@@ -178,7 +178,7 @@ e-mail: jinyeongpark [at] hanyang [dot] ac [dot] kr</span><br />
 <span style="font-size: 9pt;"> - Collective dynamics<br />
 - Stochastic dynamics<br />
 - Quantum synchronization
-<p></span></span></td>
+<p></p></span></span></td>
 </tr>
 <tr style="border: 0px; height: 200px; vertical-align: top;">
 <td style="width: 150px;"><img class="alignnone size-full" style="max-height: 180px; max-width: 110px;" src="{{ '/assets/uploads/profile/dhun.jpg' | relative_url }}" alt="dhun" /></td>
@@ -191,7 +191,7 @@ e-mail: jinyeongpark [at] hanyang [dot] ac [dot] kr</span><br />
 <span style="font-size: 9pt;">- Collective dynamics<br />
 - Kinetic theory<br />
 - Control theory
-<p></span></span></td>
+<p></p></span></span></td>
 </tr>
 <tr style="border: 0px; height: 200px; vertical-align: top;">
 <td style="width: 150px;"><img class="alignnone size-full" style="max-height: 180px; max-width: 135px;" src="{{ '/assets/uploads/profile/jho.jpg' | relative_url }}" alt="jho" /></td>
@@ -203,7 +203,7 @@ e-mail: jinyeongpark [at] hanyang [dot] ac [dot] kr</span><br />
 <span style="font-size: 10pt;"><em>Research interest:</em></span><br />
 <span style="font-size: 9pt;"> - Relativistic Cucker-Smale model<br />
 - TCP model
-<p></span></span></td>
+<p></p></span></span></td>
 </tr>
 <tr style="border: 0px; height: 200px; vertical-align: top;">
 <td style="width: 150px;"><img class="alignnone size-full" style="max-height: 180px; max-width: 135px;" src="{{ '/assets/uploads/profile/JJwook.jpg' | relative_url }}" alt="JJwook" /></td>
@@ -215,7 +215,7 @@ e-mail: jinyeongpark [at] hanyang [dot] ac [dot] kr</span><br />
 <span style="font-size: 10pt;"><em>Research interest:</em></span><br />
 <span style="font-size: 9pt;"> - Collective dynamics<br />
 - Numerical analysis
-<p></span></span></td>
+<p></p></span></span></td>
 </tr>
 <tr style="border: 0px; height: 200px; vertical-align: top;">
 <td style="width: 150px;"><img class="alignnone size-full" style="max-height: 180px; max-width: 135px;" src="{{ '/assets/uploads/profile/SWJ.jpg' | relative_url }}" alt="SWJ" /></td>
@@ -228,7 +228,7 @@ e-mail: jinyeongpark [at] hanyang [dot] ac [dot] kr</span><br />
 <span style="font-size: 9pt;"> - Scaling limit<br />
 - Homogenization<br />
 - Uncertainty Quantification
-<p></span></span></td>
+<p></p></span></span></td>
 </tr>
 <tr style="border: 0px; height: 200px; vertical-align: top;">
 <td style="width: 150px;"><img class="alignnone size-full" style="max-height: 180px; max-width: 135px;" src="{{ '/assets/uploads/profile/hansol.jpg' | relative_url }}" alt="PHS" /></td>
@@ -240,7 +240,7 @@ e-mail: jinyeongpark [at] hanyang [dot] ac [dot] kr</span><br />
 <span style="font-size: 10pt;"><em>Research interest:</em></span><br />
 <span style="font-size: 9pt;">-Synchronization<br />
 -Optimization
-<p></span></span></td>
+<p></p></span></span></td>
 </tr>
 <tr style="border: 0px; height: 200px; vertical-align: top;">
 <td style="width: 150px;"><img class="alignnone size-full" style="max-height: 180px; max-width: 135px;" src="{{ '/assets/uploads/profile/MJkang.jpeg' | relative_url }}" alt="KMJ" /></td>
@@ -252,7 +252,7 @@ e-mail: jinyeongpark [at] hanyang [dot] ac [dot] kr</span><br />
 <span style="font-size: 10pt;"><em>Research interest:</em></span><br />
 <span style="font-size: 9pt;">-Numerical Analysis<br />
 -Synchronization
-<p></span></span></td>
+<p></p></span></span></td>
 </tr>
 <tr style="border: 0px; height: 200px; vertical-align: top;">
 <td style="width: 150px;"><img class="alignnone size-full" style="max-height: 180px; max-width: 135px;" src="{{ '/assets/uploads/profile/AHJ.jpg' | relative_url }}" alt="AHJ" /></td>
@@ -265,7 +265,7 @@ e-mail: jinyeongpark [at] hanyang [dot] ac [dot] kr</span><br />
 <span style="font-size: 9pt;">-Optimization<br />
 -Synchronization<br />
 -Partial differential equations
-<p></span></span></td>
+<p></p></span></span></td>
 </tr>
 <tr style="border: 0px; height: 200px; vertical-align: top;">
 <td style="width: 150px;"><img class="alignnone size-full" style="max-height: 180px; max-width: 135px;" src="{{ '/assets/uploads/profile/JHB.jpg' | relative_url }}" alt="JHB" /></td>
@@ -277,7 +277,7 @@ e-mail: jinyeongpark [at] hanyang [dot] ac [dot] kr</span><br />
 <span style="font-size: 10pt;"><em>Research interest:</em></span><br />
 <span style="font-size: 9pt;">-Mathematical modeling<br />
 -Applied Mathematics
-<p></span></span></td>
+<p></p></span></span></td>
 </tr>
 <tr style="border: 0px; height: 200px; vertical-align: top;">
 <td style="width: 150px;"><img class="alignnone size-full" style="max-height: 180px; max-width: 135px;" src="{{ '/assets/uploads/profile/ETLee2.jpeg' | relative_url }}" alt="ETLee" /></td>
@@ -288,7 +288,7 @@ e-mail: jinyeongpark [at] hanyang [dot] ac [dot] kr</span><br />
 <span style="font-size: 9pt;">e-mail: tngkrqks21 [at] snu [dot] ac [dot] kr</span><br />
 <span style="font-size: 10pt;"><em>Research interest:</em></span><br />
 <span style="font-size: 9pt;"> -Synchronization
-<p></span></span></td>
+<p></p></span></span></td>
 </tr>
 <tr style="border: 0px; height: 200px; vertical-align: top;">
 <td style="width: 150px;"><img class="alignnone size-full" style="max-height: 180px; max-width: 135px;" src="{{ '/assets/uploads/profile/CHJ.png' | relative_url }}" alt="CHJ" /></td>
@@ -299,7 +299,7 @@ e-mail: jinyeongpark [at] hanyang [dot] ac [dot] kr</span><br />
 <span style="font-size: 9pt;">e-mail: hangjun [at] uw [dot] edu </span><br />
 <span style="font-size: 10pt;"><em>Research interest:</em></span><br />
 <span style="font-size: 9pt;">-Synchronization
-<p></span></span></td>
+<p></p></span></span></td>
 </tr>
 <tr style="border: 0px; height: 200px; vertical-align: top;">
 <td style="width: 150px;"><img class="alignnone size-full" style="max-height: 180px; max-width: 135px;" src="{{ '/assets/uploads/profile/GYHwang.jpg' | relative_url }}" alt="CHJ" /></td>
@@ -310,7 +310,7 @@ e-mail: jinyeongpark [at] hanyang [dot] ac [dot] kr</span><br />
 <span style="font-size: 9pt;">e-mail: hgy0407 [at] snu [dot] ac [dot] kr </span><br />
 <span style="font-size: 10pt;"><em>Research interest:</em></span><br />
 <span style="font-size: 9pt;">-Synchronization
-<p></span></span></td>
+<p></p></span></span></td>
 </tr>
 <tr style="border: 0px; height: 200px; vertical-align: top;">
 <td style="width: 150px;"><img class="alignnone size-full" style="max-height: 180px; max-width: 135px;" src="{{ '/assets/uploads/profile/JYY.jpg' | relative_url }}" alt="JYoon" /></td>
@@ -332,7 +332,7 @@ e-mail: jinyeongpark [at] hanyang [dot] ac [dot] kr</span><br />
 <span style="font-size: 9pt;">e-mail: ynwk178 [at] snu [dot] ac [dot] kr</span><br />
 <span style="font-size: 10pt;"><em>Research interest:</em></span><br />
 <span style="font-size: 9pt;">- Asymptotic analysis of multi-agent systems<br />
-- Particle based optimization</span></td>
+- Particle based optimization</span></span></span></td>
 </tr>
 <tr style="border: 0px; height: 200px; vertical-align: top;">
 <td style="width: 150px;"><img class="alignnone size-full" style="max-height: 180px; max-width: 135px;" src="{{ '/assets/uploads/profile/SLee.jpg' | relative_url }}" alt="SLee" /></td>
@@ -344,7 +344,7 @@ e-mail: sjlee0218 [at] snu [dot] ac [dot] kr</span><br />
 <span style="font-size: 10pt;"><em>Research interest:</em></span><br />
 <span style="font-size: 9pt;">- Asymptotic analysis of multi-agent systems<br />
 - Control theory, optimization<br />
-- Stochastic collective dynamics</span></td>
+- Stochastic collective dynamics</span></span></td>
 </tr>
 </tbody>
 </table>
@@ -372,7 +372,7 @@ e-mail: sjlee0218 [at] snu [dot] ac [dot] kr</span><br />
 <td><strong>Sue Na Kim</strong><br />
 <span style="font-size: 10pt;"><em>Mathematics Teacher in High school</em></span><br />
 <span style="font-size: 9pt;">e-mail: ksn127 [at] snu [dot] ac [dot] kr
-<p></span></td>
+<p></p></span></td>
 </tr>
 <tr style="border: 0px; height: 200px; vertical-align: top;">
 <td style="width: 150px;"><img class="alignnone size-full" style="max-height: 180px; max-width: 135px;" src="{{ '/assets/uploads/profile/hrim.jpg' | relative_url }}" alt="hrim" /></td>

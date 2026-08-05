@@ -194,7 +194,7 @@ original_url: "http://hyke.snu.ac.kr/?page_id=73"
 <span style="font-size: 9pt;">e-mail: ynwk178 [at] snu [dot] ac [dot] kr</span><br />
 <span style="font-size: 10pt;"><em>Research interest:</em></span><br />
 <span style="font-size: 9pt;">- Asymptotic analysis of multi-agent systems<br />
-- Particle based optimization</span></td>
+- Particle based optimization</span></span></td>
 </tr>
 <tr style="border: 0px; height: 200px; vertical-align: top;">
 <td style="width: 150px;"><img class="alignnone size-full" style="max-height: 180px; max-width: 135px;" src="{{ '/assets/uploads/profile/SLee.jpg' | relative_url }}" alt="SLee" /></td>

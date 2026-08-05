@@ -17,7 +17,7 @@ original_url: "http://hyke.snu.ac.kr/?page_id=56"
 <span style="font-size: 10pt;"><em>Research interest:</em></span><br />
 <span style="font-size: 9pt;"> -Quantum Boltzmann-BGK model<br />
 -Relativistic quantum kinetic model</span></span>
-<p>&nbsp;</td>
+<p>&nbsp;</p></span></td>
 </tr>
 <tr style="border: 0px; height: 200px; vertical-align: top;">
 <td style="width: 150px;"><img class="alignnone size-full" style="max-height: 180px; max-width: 135px;" src="{{ '/assets/uploads/profile/Xinyu.jpg' | relative_url }}" /></td>
@@ -27,7 +27,7 @@ original_url: "http://hyke.snu.ac.kr/?page_id=56"
 <span style="font-size: 9pt;">e-mail: wangxinyu97 [at] snu [dot] ac [dot] kr</span><br />
 <span style="font-size: 10pt;"><em>Research interest: </em></span><br />
 <span style="font-size: 9pt;"> -Collective dynamics<br />
-</span></td>
+</span></span></td>
 </tr>
 <tr style="border: 0px; height: 200px; vertical-align: top;">
 <td style="width: 150px;"><img class="alignnone size-full" style="max-height: 180px; max-width: 135px;" src="{{ '/assets/uploads/profile/Fanqin%20Zeng.jpg' | relative_url }}" alt="ETLee" /></td>
@@ -37,7 +37,7 @@ original_url: "http://hyke.snu.ac.kr/?page_id=56"
 <span style="font-size: 9pt;">homepage: <a href="https://sites.google.com/view/fqzenghomepage" target="_blank" rel="noopener">https://sites.google.com/view/fqzenghomepage</a><br />
 <span style="font-size: 9pt;">e-mail: fqzeng93 [at] snu [dot] ac [dot] kr</span><br />
 <span style="font-size: 10pt;"><em>Research interest:</em></span><br />
-<span style="font-size: 9pt;"> -Collective behavior of multi-particle systems</span></td>
+<span style="font-size: 9pt;"> -Collective behavior of multi-particle systems</span></span></td>
 </tr>
 <tr style="border: 0px; height: 200px; vertical-align: top;">
 <td style="width: 150px;"><img class="alignnone size-full" style="max-height: 180px; max-width: 135px;" src="{{ '/assets/uploads/profile/ChangyuZhou.JPG' | relative_url }}" alt="ChangyuZhou" /></td>

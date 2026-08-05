@@ -115,7 +115,7 @@ original_url: "http://hyke.snu.ac.kr/?page_id=2578"
       <p style="margin-top: 12px;">
         Final sample paragraph for the abstract. Replace all of this with the actual content later.
       </p>-->
-    </li>
+    </p></li>
 <li style="margin-bottom: 36px;">
 <p style="margin: 0 0 8px 0;">
         <span>YYYY/MM/DD:</span> <strong>Name 2 (Affiliation 2)</strong>

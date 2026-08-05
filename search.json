@@ -1,0 +1,27 @@
+---
+permalink: /search.json
+layout: null
+sitemap: false
+---
+{%- comment -%}
+  Search index for the site search box.
+  Iterates site.documents (all collections: posts + the _pages collection)
+  rather than site.pages, because this site has a collection literally named
+  "pages", which would collide with Jekyll's built-in site.pages.
+{%- endcomment -%}
+[
+{%- assign docs = site.documents | sort: "date" | reverse -%}
+{%- for doc in docs -%}
+{%- unless doc.title -%}{%- continue -%}{%- endunless -%}
+{%- if written -%},{%- endif -%}
+{%- assign written = true -%}
+{
+"t": {{ doc.title | jsonify }},
+"u": {{ doc.url | relative_url | jsonify }},
+"d": {% if doc.collection == "posts" %}{{ doc.date | date: "%Y-%m-%d" | jsonify }}{% else %}""{% endif %},
+"c": {{ doc.categories | join: ", " | jsonify }},
+"k": {{ doc.collection | jsonify }},
+"b": {{ doc.content | strip_html | normalize_whitespace | strip | truncate: 1200 | jsonify }}
+}
+{%- endfor -%}
+]

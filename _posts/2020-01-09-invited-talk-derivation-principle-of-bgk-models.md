@@ -16,7 +16,7 @@ original_url: "http://hyke.snu.ac.kr/?p=880"
 <span style="font-size: 10pt;"> Place: <strong>27-116</strong></span><br />
 <span style="font-size: 10pt;"> Abstract:</span><br />
 <span style="font-size: 10pt;"> In this talk we will present a derivation principle of BGK<br />
-models using the resolution of an entropy minimization problem.</p>
+models using the resolution of an entropy minimization problem.</span></p>
 <p>The construction is based as on the introduction of relaxation<br />
 coefficients and a principle of entropy minimization under<br />
 constraints for moments. These free parameters are next ajusted to<br />

@@ -19,7 +19,7 @@ email: syha [at] snu [dot] ac [dot] kr</span>
 - Hyperbolic conservation law<br />
 - Kinetic Theory<br />
 - Nonlinear dynamics<br />
-</span></td>
+</span></p></td>
 </tr>
 </tbody>
 </table>
