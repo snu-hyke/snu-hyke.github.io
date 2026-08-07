@@ -329,11 +329,38 @@ a:hover { text-decoration: none; color: var(--link-hover); }
   color: var(--muted);
 }
 
+/* ---------- People tables ------------------------------------------------ */
+/* Long homepage URLs have no break points, so let them wrap rather than
+   push the page sideways. */
+.people-table a,
+.entry-content a { overflow-wrap: anywhere; }
+
 /* ---------- responsive (philips/css/responsive.css) --------------------- */
 @media (max-width: 991px) {
   .main-sidebar { padding: 0 15px; margin-top: 40px; }
 }
 @media (max-width: 767px) {
+  /* A photo column plus a text column does not fit a phone, so stack the
+     two cells instead of letting the table scroll sideways. */
+  .people-table,
+  .people-table tbody,
+  .people-table tr,
+  .people-table td {
+    display: block;
+    width: auto !important;
+    max-width: 100%;
+  }
+  .people-table tr {
+    padding-bottom: 18px;
+    margin-bottom: 18px;
+    border-bottom: 1px solid var(--border);
+    height: auto !important;
+  }
+  .people-table tr:last-child { border-bottom: 0; }
+  .people-table td { padding: 0; }
+  .people-table td:first-child:empty { display: none; }
+  .people-table img { margin-bottom: 8px; }
+
   h1 { padding: 20px 0; text-align: center; }
   .header-area { padding: 25px 0; }
   .site-title a { font-size: 22px; }
