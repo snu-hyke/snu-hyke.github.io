@@ -9,6 +9,6 @@ wordpress_id: 853
 original_url: "http://hyke.snu.ac.kr/?p=853"
 ---
 
-<p>A seminar, titled &lt;Hyper-elastic Ricci flow&gt;, spoken by Prof. Marshall Slemrod, was held on November 5th, 2019, at Seoul National University.</p>
+<p>A seminar, titled “Hyper-elastic Ricci flow”, spoken by Prof. Marshall Slemrod, was held on November 5th, 2019, at Seoul National University.</p>
 <p><img class="alignnone" src="{{ '/assets/uploads/pictures/20191105a.JPG' | relative_url }}" width="700" height="850" /></p>
 <p><img class="alignnone" src="{{ '/assets/uploads/pictures/20191105b.JPG' | relative_url }}" width="700" height="850" /></p>
