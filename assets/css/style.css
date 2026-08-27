@@ -335,6 +335,38 @@ a:hover { text-decoration: none; color: var(--link-hover); }
 .people-table a,
 .entry-content a { overflow-wrap: anywhere; }
 
+/* Links inside content read as links. */
+.entry-content a { color: #0a58c0; }
+.entry-content a:hover { color: var(--link-hover); }
+
+/* Keep a clear gap between one person's description and the next. */
+.people-table > tbody > tr > td { padding-bottom: 1.6em; }
+
+/* ---------- back-to-top button ------------------------------------------ */
+#to-top {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 1px solid #bbb;
+  background: #fff;
+  color: #222;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, .18);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity .2s;
+  z-index: 900;
+}
+#to-top.show { opacity: 1; visibility: visible; }
+#to-top:hover { color: var(--link-hover); border-color: var(--link-hover); }
+#to-top:focus-visible { outline: 2px solid var(--link-hover); outline-offset: 2px; }
+
 /* ---------- responsive (philips/css/responsive.css) --------------------- */
 @media (max-width: 991px) {
   .main-sidebar { padding: 0 15px; margin-top: 40px; }

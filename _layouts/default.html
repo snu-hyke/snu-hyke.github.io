@@ -107,5 +107,44 @@
 })();
 </script>
 
+<button id="to-top" type="button" aria-label="Back to top">&uarr;</button>
+<script>
+// Floating back-to-top button; appears after scrolling down a screen or so.
+(function () {
+  var btn = document.getElementById('to-top');
+  if (!btn) { return; }
+  function onScroll() {
+    btn.classList.toggle('show', window.scrollY > 400);
+  }
+  window.addEventListener('scroll', onScroll, { passive: true });
+  onScroll();
+  btn.addEventListener('click', function () {
+    var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    window.scrollTo({ top: 0, behavior: reduce ? 'auto' : 'smooth' });
+  });
+})();
+
+// Phones have no inline PDF plugin, so an <embed type="application/pdf">
+// shows as an empty box on iOS Safari and Android. Leave the embed for
+// desktop and add a plain link underneath so the file is reachable anywhere.
+(function () {
+  document.querySelectorAll('embed[src]').forEach(function (em) {
+    var src = em.getAttribute('src') || '';
+    if (!/\.pdf(\?|$)/i.test(src)) { return; }
+    var name;
+    try { name = decodeURIComponent(src.split('/').pop()); }
+    catch (e) { name = src.split('/').pop(); }
+    var p = document.createElement('p');
+    var a = document.createElement('a');
+    a.href = src;
+    a.target = '_blank';
+    a.rel = 'noopener';
+    a.textContent = 'Open PDF: ' + name;
+    p.appendChild(a);
+    em.insertAdjacentElement('afterend', p);
+  });
+})();
+</script>
+
 </body>
 </html>

@@ -2,11 +2,13 @@
 layout: default
 ---
 {%- comment -%}
-  Renders one People page from _data/people.yml, keeping the table layout the
-  site has always used. Everybody lives in that one data file, so moving
-  somebody (a student graduating, a postdoc taking a job) is a change of two
-  fields rather than cutting HTML out of one page and pasting it into another.
-
+  Renders one People page from _data/people.yml. Moving somebody between
+  pages is a two-field edit in that data file; this template controls how
+  every entry looks, so the formatting stays uniform:
+    * no italics — a "Label: value" line gets a bold label instead
+    * one blank line after the e-mail line
+    * the professor page keeps its original large portrait (400x300)
+    * an empty section leaves two blank lines before the next heading
   page.people_page selects which page's sections to show.
 {%- endcomment -%}
 <article class="page">
@@ -17,8 +19,9 @@ layout: default
     {{ content }}
 
     {%- assign sections = site.data.people.sections | where: "page", page.people_page %}
-    {%- for section in sections %}
     {%- assign members = site.data.people.people | where: "page", page.people_page %}
+    {%- for section in sections %}
+    {%- assign section_members = members | where: "section", section.label %}
 
     {%- assign show_heading = true %}
     {%- if sections.size == 1 and section.label == page.title %}{% assign show_heading = false %}{% endif %}
@@ -28,14 +31,17 @@ layout: default
     </ul>
     {%- endif %}
 
+    {%- if section_members.size == 0 %}
+    <div aria-hidden="true" style="height: 2.8em;"></div>
+    {%- else %}
     <table class="people-table" style="border: 0px; width: 100%; cellspacing: 0px; cellpadding: 10px; text-align: left; margin: auto;">
       <tbody>
-        {%- for person in members %}
-        {%- if person.section != section.label %}{% continue %}{% endif %}
+        {%- for person in section_members %}
         <tr style="border: 0px; height: 200px; vertical-align: top;">
-          <td style="width: 150px;">
+          <td style="{% if page.people_page == 'professor' %}width: 310px;{% else %}width: 150px;{% endif %}">
             {%- if person.photo %}
-            <img class="alignnone size-full" style="max-height: 180px; max-width: 135px;"
+            <img class="alignnone size-full"
+                 style="{% if page.people_page == 'professor' %}max-height: 400px; max-width: 300px;{% else %}max-height: 180px; max-width: 135px;{% endif %}"
                  src="{{ person.photo | prepend: '/assets/uploads/' | relative_url }}"
                  alt="{{ person.name }}" />
             {%- endif %}
@@ -43,21 +49,31 @@ layout: default
           <td>
             <strong>{{ person.name }}</strong><br />
             {%- if person.role %}
-            <span style="font-size: 10pt;"><em>{{ person.role }}</em></span><br />
+            {%- assign role_parts = person.role | split: ":" %}
+            {%- if role_parts.size > 1 %}
+            <span style="font-size: 10pt;"><strong>{{ role_parts[0] }}:</strong>{{ person.role | remove_first: role_parts[0] | remove_first: ":" }}</span><br />
+            {%- else %}
+            <span style="font-size: 10pt;">{{ person.role }}</span><br />
+            {%- endif %}
             {%- endif %}
             {%- for line in person.note %}
+            {%- assign line_parts = line | split: ":" %}
+            {%- if line_parts.size > 1 %}
+            <span style="font-size: 10pt;"><strong>{{ line_parts[0] }}:</strong>{{ line | remove_first: line_parts[0] | remove_first: ":" }}</span><br />
+            {%- else %}
             <span style="font-size: 10pt;">{{ line }}</span><br />
+            {%- endif %}
             {%- endfor %}
             {%- if person.homepage %}
-            <span style="font-size: 9pt;">homepage:
-              <a href="{{ person.homepage }}" target="_blank" rel="noopener">{{ person.homepage }}</a>
-            </span><br />
+            <span style="font-size: 9pt;"><strong>homepage:</strong>
+              <a href="{{ person.homepage }}" target="_blank" rel="noopener">{{ person.homepage }}</a></span><br />
             {%- endif %}
             {%- if person.email %}
-            <span style="font-size: 9pt;">e-mail: {{ person.email }}</span><br />
+            <span style="font-size: 9pt;"><strong>e-mail:</strong> {{ person.email }}</span><br />
+            <br />
             {%- endif %}
             {%- if person.interests and person.interests.size > 0 %}
-            <span style="font-size: 10pt;"><em>Research interest:</em></span><br />
+            <span style="font-size: 10pt;"><strong>Research interest:</strong></span><br />
             <span style="font-size: 9pt;">
               {%- for item in person.interests %}
               - {{ item }}{% unless forloop.last %}<br />{% endunless %}
@@ -69,6 +85,7 @@ layout: default
         {%- endfor %}
       </tbody>
     </table>
+    {%- endif %}
     {%- endfor %}
   </div>
 </article>
