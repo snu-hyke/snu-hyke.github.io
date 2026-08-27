@@ -52,8 +52,10 @@ original_url: "http://hyke.snu.ac.kr/?page_id=374"
 <li><a href="{{ '/workshop/2022/home/' | relative_url }}" target="_blank" rel="noopener"> 2022 Workshop on the Dynamics of Complex Systems, Busan, Korea</a> <span style="font-size: 9pt;">June 27-30, 2022<br /><br />
  <br /><br />
  </span></li>
-<li><a href="http://www.rgd32.org/plenary.asp" target="_blank" rel="noopener">32nd International Symposium on Rarefied Gas Dynamics (RGD32), in Seoul, South Korea</a> <span style="font-size: 9pt;">July 4-8, 2022<br /><br />
- <br /><br />
+ <li>
+  32nd International Symposium on Rarefied Gas Dynamics (RGD32), in Seoul, South Korea
+  <span style="font-size: 9pt;">July 4–8, 2022</span>
+</li>
  </span></li>
 <li><a href="http://events.kias.re.kr/h/WMPPTA/?pageNo=4772" target="_blank" rel="noopener">Workshop on Mathematical Physics and Probability: Theory and Application, KIAS 1503</a> <span style="font-size: 9pt;"> August 8-10, 2022<br /><br />
  <br /><br />
