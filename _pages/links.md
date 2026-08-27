@@ -11,7 +11,7 @@ original_url: "http://hyke.snu.ac.kr/?page_id=84"
 <ul>
 <li><a href="http://www.math.snu.ac.kr" target="_blank">Department of Mathematical Sciences</a></li>
 <li><a href="http://lib.snu.ac.kr" target="_blank">Library</a></li>
-<li><a href="http://www.math.snu.ac.kr/board/lib_main" target="_blank">Math Library</a></li>
+<li><a href="https://web.math.snu.ac.kr/board/?mid=lib_main" target="_blank">Math Library</a></li>
 </ul>
 </li>
 </ul>
