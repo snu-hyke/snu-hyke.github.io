@@ -1,7 +1,6 @@
 # People shown on the People pages.
 # Move somebody between pages by changing `page` and `section`.
-# Generated from the original pages by scripts/people_extract.py;
-# edited afterwards with newpost/peopleedit.py.
+# Edited with newpost/peopleedit.py.
 
 sections:
   - page: "professor"
@@ -71,8 +70,8 @@ people:
       - "Quantum Boltzmann-BGK model"
       - "Relativistic quantum kinetic model"
   - name: "Xinyu Wang"
-    page: "postdoc"
-    section: "Postdocs"
+    page: "former-postdoc"
+    section: "Former Postdocs"
     photo: "profile/Xinyu.jpg"
     role: "Postdoc"
     email: "wangxinyu97 [at] snu [dot] ac [dot] kr"
@@ -80,8 +79,8 @@ people:
     interests:
       - "Collective dynamics"
   - name: "Fanqin Zeng"
-    page: "postdoc"
-    section: "Postdocs"
+    page: "former-postdoc"
+    section: "Former Postdocs"
     photo: "profile/Fanqin%20Zeng.jpg"
     role: "Postdoc"
     email: "fqzeng93 [at] snu [dot] ac [dot] kr"
@@ -149,17 +148,18 @@ people:
     section: "Visiting Postdocs"
     photo: "profile/ZIHAOZHANG.jpg"
     role: "School of Mathematics, Jilin university"
+    visiting_period: "2026.06.15 ~ 2026.12.15"
     email: "zhzhang95 [at] snu [dot] ac [dot] kr"
     interests:
       - "Nonlinear Partial Differential Equations"
     note:
       - "Postdoctoral Researcher"
-      - "Visiting period: 2026.06.15 ~ 2026.12.15"
   - name: "Rongrong Yan"
     page: "visiting-student"
     section: "Visiting Students"
     photo: "profile/RongrongYan.jpg"
     role: "School of Mathematics, Jilin university"
+    visiting_period: "2026.06.15 ~ 2026.12.15"
     email: "rong103 [at] snu [dot] ac [dot] kr"
     interests:
       - "Nonlinear Partial Differential Equations"
@@ -167,23 +167,23 @@ people:
       - "Relativistic Quantum Hydrodynamic Systems"
     note:
       - "Ph.D. Student"
-      - "Visiting period: 2026.06.15 ~ 2026.12.15"
   - name: "Huanqi Ren"
     page: "visiting-student"
     section: "Visiting Students"
     photo: "profile/RENHUANQI.jpg"
     role: "School of Mathematics, Jilin university"
+    visiting_period: "2026.06.15 ~ 2026.12.15"
     email: "huanqi516 [at] snu [dot] ac [dot] kr"
     interests:
       - "Long-Time Behavior of Solutions to the Damped Unipolar Semiconductor Euler–Poisson System"
     note:
       - "Ph.D. Student"
-      - "Visiting period: 2026.06.15 ~ 2026.12.15"
   - name: "Tang Meiqi"
     page: "visiting-student"
     section: "Visiting Students"
     photo: "profile/MeiqiTang.jpg"
     role: "School of Mathematics, Southeast University"
+    visiting_period: "2026.8.1 ~ 2027.7.31"
     email: "os123220 [at] snu [dot] ac [dot] kr"
     interests:
       - "Mean field control"
@@ -191,18 +191,17 @@ people:
       - "machine learning"
     note:
       - "Ph.D. Student"
-      - "Visiting period: 2026.8.1 ~ 2027.7.31"
   - name: "Li Xueyan"
     page: "visiting-student"
     section: "Visiting Students"
     photo: "profile/XueyanLi.jpg"
     role: "School of Mathematics, Nanjing Normal University"
+    visiting_period: "2026.8.1 ~ 2027.7.31"
     email: "os123221 [at] snu [dot] ac [dot] kr"
     interests:
       - "High-dimensional Kuramoto model"
     note:
       - "Ph.D. Student"
-      - "Visiting period: 2026.8.1 ~ 2027.7.31"
   - name: "Xiongfeng Yang"
     page: "former-postdoc"
     section: "Former Postdocs"
@@ -1003,18 +1002,19 @@ people:
     section: "Former Visiting Professors"
     photo: "profile/GuanghuiJin.jpg"
     role: "Department of Mathematics, Yanbian University"
+    visiting_period: "2024.09.01 ~ 2025.08.31"
     email: "jinguanghui [at] ybu [dot] edu [dot] cn"
     interests:
       - "Nonlinear Partial Differential Equations"
       - "Collective Dynamics"
     note:
       - "Associate Professor"
-      - "Visiting period: 2024.09.01 ~ 2025.08.31"
   - name: "Chen Wu"
     page: "visting-professor"
     section: "Former Visiting Professors"
     photo: "profile/ChenWu.jpg"
     role: "School of Mathematics and Big Data, Anhui University of Science and Technology"
+    visiting_period: "2025.10.25 ~ 2025.11.24"
     email: "wuchen [at] aust [dot] edu [dot] cn"
     interests:
       - "Flocking"
@@ -1022,7 +1022,6 @@ people:
       - "Delay system"
     note:
       - "Associate Professor"
-      - "Visiting period: 2025.10.25 ~ 2025.11.24"
   - name: "Zitao Chen"
     page: "visting-professor"
     section: "Former Visiting Students"
@@ -1064,40 +1063,40 @@ people:
     section: "Former Visiting Students"
     photo: "profile/Xinyu.jpg"
     role: "Ph. D. Student"
+    visiting_period: "2024.04.01 ~ 2024.05.01"
     email: "20b912033 [at] stu [dot] hit [dot] edu [dot] cn"
     interests:
       - "Collective dynamics"
-    note:
-      - "Visiting period: 2024.04.01 ~ 2024.05.01"
   - name: "Yu-Qing Wang"
     page: "visting-professor"
     section: "Former Visiting Students"
     photo: "profile/YuqingWang.jpg"
     role: "School of Mathematical Sciences, Dalian University of Technology"
+    visiting_period: "2025.04.01 ~ 2025.04.30"
     email: "yqwang202309 [at] 163 [dot] com"
     interests:
       - "Rigorous approaches to mathematical models of synchronization, with an emphasis on the Winfree and Kuramoto models"
       - "Nonlinear systems and control"
     note:
       - "Ph. D. Student"
-      - "Visiting period: 2025.04.01 ~ 2025.04.30"
   - name: "Valeriia Zhidkova"
     page: "visting-professor"
     section: "Former Visiting Students"
     photo: "profile/Valeriia.jpg"
     role: "The University of Mannheim"
+    visiting_period: "2025.09.01 ~ 2025.10.31"
     email: "valeriia.zhidkova [at] uni-mannheim [dot] de"
     interests:
       - "Mean-field limits for interacting particle systems"
       - "Control theory"
     note:
       - "Ph. D. Student"
-      - "Visiting period: 2025.09.01 ~ 2025.10.31"
   - name: "Ruicheng Cheng"
     page: "visting-professor"
     section: "Former Visiting Students"
     photo: "profile/RuichengCheng.jpg"
     role: "School of Mathematical Sciences, Peking University"
+    visiting_period: "2026.01.13 ~ 2026.02.10"
     email: "chengruicheng02 [at] stu [dot] pku [dot] edu [dot] cn"
     interests:
       - "Analysis"
@@ -1105,4 +1104,24 @@ people:
       - "Dynamical Systems"
     note:
       - "Ph. D. Student"
-      - "Visiting period: 2026.01.13 ~ 2026.02.10"
+  - name: "Xinyu Wang"
+    page: "visiting-student"
+    section: "Visiting Professors"
+    photo: "profile/Xinyu.jpg"
+    role: "Harbin Institute of Technology"
+    visiting_period: "2026.09.01 ~ 2027.08.31"
+    email: "wangxinyu97 [at] snu [dot] ac [dot] kr"
+    homepage: "https://sites.google.com/view/xinyuwangshomepage"
+    interests:
+      - "Collective dynamics"
+      - "Optimal transportation"
+  - name: "Fanqin Zeng"
+    page: "visiting-student"
+    section: "Visiting Professors"
+    photo: "profile/Fanqin%20Zeng.jpg"
+    role: "Harbin Engineering University"
+    visiting_period: "2026.09.01 ~ 2027.08.31"
+    email: "fqzeng93 [at] snu [dot] ac [dot] kr"
+    homepage: "https://sites.google.com/view/fqzenghomepage"
+    interests:
+      - "Collective behavior of multi-particle systems and kinetic equations"
