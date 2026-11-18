@@ -9,6 +9,14 @@ original_url: "http://hyke.snu.ac.kr/?page_id=374"
 <p>Upcoming events</p>
 
 <ul>
+<li>2027
+<ul>
+<li><a href="{{ '/workshop/jeju-pde-2027/' | relative_url }}" target="_blank" rel="noopener">Workshop on Analysis, Partial Differential Equations and Dynamical Systems</a> <span style="font-size: 9pt;">February 22–25, 2027</span></li>
+</ul>
+</li>
+</ul>
+
+<ul>
   <li>2026
     <ul>
       <li>

@@ -6,10 +6,9 @@ wordpress_id: 9
 original_url: "http://hyke.snu.ac.kr/"
 ---
 
-<figure class="wp-block-image"><img src="{{ '/assets/uploads/pictures/20260406_5.jpg' | relative_url }}" alt="" /></figure>
-<figure class="wp-block-image"><img src="{{ '/assets/uploads/pictures/20260406_6.jpg' | relative_url }}" alt="" /></figure>
+<figure class="wp-block-image"><img decoding="async" src="{{ '/assets/uploads/pictures/homepage_main%20(20261021).jpg' | relative_url }}" alt="" /></figure>
 <p>We are a research group studying <strong>hyperbolic and kinetic equations</strong>.</p>
-<div style="display: inline-block; vertical-align: top;"><img class="alignnone" style="max-height: 41%; width: 531px;" src="{{ '/assets/uploads/pictures/HYKE%20Logo.png' | relative_url }}" alt="hyke1" height="564" /></div>
+<div style="display: inline-block; vertical-align: top;"><img decoding="async" class="alignnone  wp-image-238" style="max-height: 41%; width: 531px;" src="{{ '/assets/uploads/pictures/HYKE%20Logo.png' | relative_url }}" alt="hyke1" height="564" /></div>
 <p>Our research interests consist of the following topics.</p>
 <ul>
 <li>Hyperbolic conservation law</li>
@@ -22,7 +21,7 @@ original_url: "http://hyke.snu.ac.kr/"
 <ol>
 <li>I will consider math as my vocation and live my life as a mathematician after my degree.</li>
 <li>I will not give up under any circumstances during the degree and concentrate on my studies and research.</li>
-<li>As a member of HYKE Hwarang, I will keep the lab's rules.</li>
+<li>As a member of HYKE Hwarang, I will keep the lab&#8217;s rules.</li>
 <li>I will carry myself as an esteemed member of HYKE Hwarang and live without shame.</li>
 <li>I will try to be a good citizen of society with a warm heart and sound common sense.</li>
 </ol>

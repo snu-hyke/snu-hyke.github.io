@@ -10,6 +10,27 @@ original_url: "http://hyke.snu.ac.kr/?page_id=476"
 <p><!--주석입니다: Visual과 Text를 오가면 스페이싱이 생기는 에러가 있는데 어떻게 해야할지 모르겠습니다.. text만 보시고 수정하면 문제 없고 혹은
 수정하시고 빈 텍스트 페이지에 소스코드 전체를 붙여넣으신 후%n..
 를 공백으로 찾아바꾸기 하시면 되겠습니다. --></p>
+<p><strong>2026 Fall Seminar</strong><br />
+<strong>Date</strong>: September 2nd, 2026 ~ (every Wednesday)<br />
+<strong>Time</strong>: 09:00 ~ 11:00<br />
+<strong>Place</strong>: 27-325<br />
+<strong>Text</strong>: &#8220;Quantum theory groups and representations: An introduction&#8221; by Peter Woit.</p>
+<p><strong>Schedule for presentations</strong></p>
+<p>Chapters 1–2: Xinyu <a href="{{ '/assets/uploads/seminarfiles/2026fall_seminar_Xinyu.PDF' | relative_url }}" target="_blank" rel="noopener">PDF</a><br />
+Chapters 3–4: Fanqin <a href="{{ '/assets/uploads/seminarfiles/2026fall_seminar_Fanqin.PDF' | relative_url }}" target="_blank" rel="noopener">PDF</a><br />
+Chapters 5–6: Meiqi <a href="{{ '/assets/uploads/seminarfiles/2026fall_seminar_Meiqi.pdf' | relative_url }}" target="_blank" rel="noopener">PDF</a><br />
+Chapters 7–8: Zihao <a href="{{ '/assets/uploads/seminarfiles/2026fall_seminar_Zihao.pdf' | relative_url }}" target="_blank" rel="noopener">PDF</a><br />
+Chapters 9–10: Jaemoon <a href="{{ '/assets/uploads/seminarfiles/2026fall_seminar_Jaemoon.pdf' | relative_url }}" target="_blank" rel="noopener">PDF</a><br />
+Chapters 11–12: Changyu <a href="{{ '/assets/uploads/seminarfiles/2026fall_seminar_Changyu.pdf' | relative_url }}" target="_blank" rel="noopener">PDF</a><br />
+Chapters 13–14: Xueyan <a href="{{ '/assets/uploads/seminarfiles/2026fall_seminar_Xueyan.pdf' | relative_url }}" target="_blank" rel="noopener">PDF</a><br />
+Chapters 15–16: Huanqi <a href="{{ '/assets/uploads/seminarfiles/2026fall_seminar_Huanqi.pdf' | relative_url }}" target="_blank" rel="noopener">PDF</a><br />
+Chapters 17–18: Rongrong<br />
+Chapters 19–20: Chaejoo <a href="{{ '/assets/uploads/seminarfiles/2026fall_seminar_Chaejoo.pdf' | relative_url }}" target="_blank" rel="noopener">PDF</a><br />
+Chapters 21–22:  Taegyu <a href="{{ '/assets/uploads/seminarfiles/2026fall_seminar_Taegyu.pdf' | relative_url }}" target="_blank" rel="noopener">PDF</a><br />
+Chapters 23–24: Jaehun<br />
+Chapters 25–26: Eunjun<br />
+Chapters 41–42: Jewoo</p>
+<hr />
 <p><strong>2026 Spring Seminar</strong><br />
 <strong>Date</strong>: March 11th, 2026 ~ (every Wednesday)<br />
 <strong>Time</strong>: 09:00 ~ 11:00<br />
@@ -225,7 +246,7 @@ Foundations of Data Science</summary>
 <li><a href="{{ '/assets/uploads/seminarfiles/Seminar(2019.04.04).pdf' | relative_url }}" target="_blank" rel="noopener">4.5.2019 (speaker: Hansol Park)</a></li>
 <li><a href="{{ '/assets/uploads/seminarfiles/Seminar(2019.04.12).pdf' | relative_url }}" target="_blank" rel="noopener">4.12.2019 (speaker: Donghwan Lee)</a></li>
 <li><a href="{{ '/assets/uploads/seminarfiles/Seminar(2019.04.19).pdf' | relative_url }}" target="_blank" rel="noopener">4.19.2019 (speaker: Dr.Yinglong Zhang)</a></li>
-<li><a href="http://hyke.snu.ac.kr/wp-content/uploads/seminarfiles/Seminar(190426).pdf" target="_blank" rel="noopener">4.26.2019 (speaker: Dr.Bora Moon)</a></li>
+<li><a href="{{ '/assets/uploads/seminarfiles/Seminar(2019.04.26).pdf' | relative_url }}" target="_blank" rel="noopener">4.26.2019 (speaker: Dr.Bora Moon)</a></li>
 <li><a href="{{ '/assets/uploads/seminarfiles/Seminar(190510).pdf' | relative_url }}" target="_blank" rel="noopener">5.10.2019 (speaker: Dr.Zou Weiyuan)</a></li>
 <li><a href="{{ '/assets/uploads/seminarfiles/Seminar(190517).pdf' | relative_url }}" target="_blank" rel="noopener">5.17.2019 (speaker: Jeongho Kim)</a></li>
 <li><a href="{{ '/assets/uploads/seminarfiles/Seminar(190524).pdf' | relative_url }}" target="_blank" rel="noopener">5.24.2019 (speaker: Jeongho Kim)</a></li>

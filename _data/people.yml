@@ -1,6 +1,7 @@
 # People shown on the People pages.
 # Move somebody between pages by changing `page` and `section`.
-# Edited with newpost/peopleedit.py.
+# Generated from the original pages by scripts/people_extract.py;
+# edited afterwards with newpost/peopleedit.py.
 
 sections:
   - page: "professor"
@@ -59,16 +60,6 @@ people:
       - "Hyperbolic conservation law"
       - "Kinetic Theory"
       - "Nonlinear dynamics"
-  - name: "Gichan Bae"
-    page: "postdoc"
-    section: "Postdocs"
-    photo: "profile/bgc.jpg"
-    role: "BK Postdoc"
-    email: "gcbae02 [at] snu [dot] ac [dot] kr"
-    homepage: "https://sites.google.com/view/gcbae"
-    interests:
-      - "Quantum Boltzmann-BGK model"
-      - "Relativistic quantum kinetic model"
   - name: "Changyu Zhou"
     page: "postdoc"
     section: "Postdocs"
@@ -109,6 +100,27 @@ people:
     email: "jewool [at] snu [dot] ac [dot] kr"
     interests:
       - "Dynamical systems"
+  - name: "Jeongwon Ju"
+    page: "student"
+    section: "PhD Students"
+    photo: "profile/JeongwonJu.jpg"
+    email: "garden417 [at] snu [dot] ac [dot] kr"
+    interests:
+      - "Dynamical systems"
+  - name: "Aiwen Liang"
+    page: "student"
+    section: "PhD Students"
+    photo: "profile/AiwenLiang.jpg"
+    email: "oiman720 [at] snu [dot] ac [dot] kr"
+    interests:
+      - "Dynamical systems"
+  - name: "Taegyu Kim"
+    page: "student"
+    section: "Master Students"
+    photo: "profile/kimtaegyu.jpg"
+    email: "taegyukim [at] snu [dot] ac [dot] kr"
+    interests:
+      - "Dynamical systems"
   - name: "Eunjun Lee"
     page: "student"
     section: "Interns"
@@ -125,24 +137,56 @@ people:
     email: "jaehoon0404 [at] snu [dot] ac [dot] kr"
     interests:
       - "Dynamics and synchronization of biological oscillator"
+  - name: "Xinyu Wang"
+    page: "visiting-student"
+    section: "Visiting Professors"
+    photo: "profile/Xinyu.jpg"
+    role: "Professor"
+    email: "wangxinyu97 [at] snu [dot] ac [dot] kr"
+    homepage: "https://sites.google.com/view/xinyuwangshomepage"
+    interests:
+      - "Collective dynamics"
+  - name: "Fanqin Zeng"
+    page: "visiting-student"
+    section: "Visiting Professors"
+    photo: "profile/Fanqin%20Zeng.jpg"
+    role: "Professor"
+    email: "fqzeng93 [at] snu [dot] ac [dot] kr"
+    homepage: "https://sites.google.com/view/fqzenghomepage"
+    interests:
+      - "Collective behavior of multi-particle systems"
   - name: "Zihao Zhang"
     page: "visiting-student"
     section: "Visiting Postdocs"
     photo: "profile/ZIHAOZHANG.jpg"
-    role: "School of Mathematics, Jilin University"
+    role: "School of Mathematics, Jilin university"
     visiting_period: "2026.06.15 ~ 2026.12.15"
-    email: "zhzhang95 [at] snu [dot] ac [dot] kr"
+    email: "zhangzihao [at] jlu [dot] edu [dot] cn / zhzhang95 [at] snu [dot] ac [dot] kr"
     interests:
       - "Nonlinear Partial Differential Equations"
     note:
       - "Postdoctoral Researcher"
+  - name: "Yuelin Wang"
+    page: "visiting-student"
+    section: "Visiting Postdocs"
+    photo: "profile/YuelinWang.jpg"
+    role: "Shanghai Jiao Tong University"
+    visiting_period: "2026.11.1 ~ 2026.11.31"
+    email: "458708240 [at] qq [dot] com kr"
+    interests:
+      - "particle systems"
+      - "mean field limit"
+      - "numerical analysis"
+      - "collective behavior"
+    note:
+      - "Ph.D. Student"
   - name: "Rongrong Yan"
     page: "visiting-student"
     section: "Visiting Students"
     photo: "profile/RongrongYan.jpg"
-    role: "School of Mathematics, Jilin University"
+    role: "School of Mathematics, Jilin university"
     visiting_period: "2026.06.15 ~ 2026.12.15"
-    email: "rong103 [at] snu [dot] ac [dot] kr"
+    email: "rryan [dot] math [at] gmail [dot] com / rong103 [at] snu [dot] ac [dot] kr"
     interests:
       - "Nonlinear Partial Differential Equations"
       - "Klein–Gordon Equations"
@@ -153,9 +197,9 @@ people:
     page: "visiting-student"
     section: "Visiting Students"
     photo: "profile/RENHUANQI.jpg"
-    role: "School of Mathematics, Jilin University"
+    role: "School of Mathematics, Jilin university"
     visiting_period: "2026.06.15 ~ 2026.12.15"
-    email: "huanqi516 [at] snu [dot] ac [dot] kr"
+    email: "rhq6721 [at] 163 [dot] com / huanqi516 [at] snu [dot] ac [dot] kr"
     interests:
       - "Long-Time Behavior of Solutions to the Damped Unipolar Semiconductor Euler–Poisson System"
     note:
@@ -165,7 +209,7 @@ people:
     section: "Visiting Students"
     photo: "profile/MeiqiTang.jpg"
     role: "School of Mathematics, Southeast University"
-    visiting_period: "2026.08.01 ~ 2027.07.31"
+    visiting_period: "2026.8.1 ~ 2027.7.31"
     email: "os123220 [at] snu [dot] ac [dot] kr"
     interests:
       - "Mean field control"
@@ -178,10 +222,21 @@ people:
     section: "Visiting Students"
     photo: "profile/XueyanLi.jpg"
     role: "School of Mathematics, Nanjing Normal University"
-    visiting_period: "2026.08.01 ~ 2027.07.31"
+    visiting_period: "2026.8.1 ~ 2027.7.31"
     email: "os123221 [at] snu [dot] ac [dot] kr"
     interests:
       - "High-dimensional Kuramoto model"
+    note:
+      - "Ph.D. Student"
+  - name: "Haozhe Su"
+    page: "visiting-student"
+    section: "Visiting Students"
+    photo: "profile/HaozheSu.jpg"
+    role: "Tohoku University"
+    visiting_period: "2026.11.1 ~ 2026.11.28"
+    email: "haoz [dot] shu [at] gmail [dot] com kr"
+    interests:
+      - "Dynamical systems"
     note:
       - "Ph.D. Student"
   - name: "Xiongfeng Yang"
@@ -300,7 +355,7 @@ people:
     page: "former-postdoc"
     section: "Former Postdocs"
     photo: "profile/dohy2.png"
-    role: "Department of Mathematics Education, Sungkyunkwan University"
+    role: "Department of mathematics education, Sungkyunkwan University"
     email: "dohyunkim [at] snu [dot] ac [dot] kr"
     homepage: "https://sites.google.com/view/dohyunkimath/"
     interests:
@@ -323,18 +378,16 @@ people:
     page: "former-postdoc"
     section: "Former Postdocs"
     photo: "profile/ETLee2.jpeg"
-    role: "Department of Mathematics, Sungkyunkwan University"
+    role: "Startup"
     email: "tngkrqks21 [at] snu [dot] ac [dot] kr"
     homepage: "https://sites.google.com/view/etlee/home"
     interests:
       - "Synchronization"
-    note:
-      - "Postdoc"
   - name: "Woojoo Shim"
     page: "former-postdoc"
     section: "Former Postdocs"
     photo: "profile/SWJ.jpg"
-    role: "Department of Mathematics Education, Kyungpook University"
+    role: "Department of mathematics education, Kyungpook university"
     email: "cosmo.shim [at] gmail [dot] com"
     homepage: "https://sites.google.com/view/woojooshim"
     interests:
@@ -368,11 +421,23 @@ people:
       - "Partial differential equations"
     note:
       - "Assistant Professor"
+  - name: "Gichan Bae"
+    page: "former-postdoc"
+    section: "Former Postdocs"
+    photo: "profile/bgc.jpg"
+    role: "Department of Mathematics, Dalian University of Technology"
+    email: "gcbae02 [at] snu [dot] ac [dot] kr"
+    homepage: "https://sites.google.com/view/gcbae"
+    interests:
+      - "Quantum Boltzmann-BGK model"
+      - "Relativistic quantum kinetic model"
+    note:
+      - "Assistant Professor"
   - name: "Wook Yoon"
     page: "former-postdoc"
     section: "Former Postdocs"
     photo: "profile/WY.jpg"
-    role: "Department of Mathematics, Technical University of Munich"
+    role: "Department of Mathematics, Duke University"
     email: "ynwk178 [at] snu [dot] ac [dot] kr"
     homepage: "https://sites.google.com/view/wookyoon-math"
     interests:
@@ -397,7 +462,7 @@ people:
     page: "former-postdoc"
     section: "Former Postdocs"
     photo: "profile/Xinyu.jpg"
-    role: "Postdoc"
+    role: "Professor"
     email: "wangxinyu97 [at] snu [dot] ac [dot] kr"
     homepage: "https://sites.google.com/view/xinyuwangshomepage"
     interests:
@@ -406,7 +471,7 @@ people:
     page: "former-postdoc"
     section: "Former Postdocs"
     photo: "profile/Fanqin%20Zeng.jpg"
-    role: "Postdoc"
+    role: "Professor"
     email: "fqzeng93 [at] snu [dot] ac [dot] kr"
     homepage: "https://sites.google.com/view/fqzenghomepage"
     interests:
@@ -465,7 +530,7 @@ people:
     photo: "profile/YP_Choi.jpg"
     role: "Department of Mathematics, Yonsei University"
     email: "ypchoi [at] yonsei [dot] ac [dot] kr"
-    homepage: "https://sites.google.com/site/youngpilc/"
+    homepage: "https://sites.google.com/site/youngpilc/ "
     interests:
       - "Nonlinear dynamics"
       - "Derivation of transport-type equations"
@@ -498,7 +563,7 @@ people:
     page: "former-student"
     section: "Former PhD Students"
     role: "EBS"
-    email: "joyful25 [at] snu [dot] ac [dot] kr"
+    email: "joyful25@snu.ac.kr [at] snu [dot] ac [dot] kr"
     interests:
       - "Flocking model"
   - name: "Yongduck Kim"
@@ -686,24 +751,22 @@ people:
     page: "former-student"
     section: "Former PhD Students"
     photo: "profile/ETLee2.jpeg"
-    role: "Department of Mathematics, Sungkyunkwan University"
+    role: "Startup"
     email: "tngkrqks21 [at] snu [dot] ac [dot] kr"
     homepage: "https://sites.google.com/view/etlee/home"
     interests:
       - "Synchronization"
-    note:
-      - "Postdoc"
   - name: "Hangjun Cho"
     page: "former-student"
     section: "Former PhD Students"
     photo: "profile/CHJ.png"
-    role: "Department of Chemical and Biomolecular Engineering, Ohio State University"
-    email: "hangjun [at] uw [dot] edu"
-    homepage: "https://sites.google.com/view/hangjun-cho"
+    role: "Department of Mathematics Education, Kongju National University"
+    email: "hangjun.cho [at] kongju [dot] ac [dot] kr"
+    homepage: "https://hangjun-cho.github.io/"
     interests:
       - "Synchronization"
     note:
-      - "Postdoc"
+      - "Assistant Professor"
   - name: "Gyuyoung Hwang"
     page: "former-student"
     section: "Former PhD Students"
@@ -719,18 +782,18 @@ people:
     page: "former-student"
     section: "Former PhD Students"
     photo: "profile/JYY.jpg"
-    role: "Department of Mathematics, Technical University of Munich"
-    email: "jyoung924 [at] snu [dot] ac [dot] kr"
-    homepage: "https://sites.google.com/snu.ac.kr/jaeyoung-yoon/home"
+    role: "Department of Mathematics, Konkuk university"
+    email: "yoonj [at] konkuk [dot] ac [dot] kr"
+    homepage: "https://jyoung-yoon.github.io"
     interests:
       - "Synchronization"
     note:
-      - "Postdoc"
+      - "Assistant Professor"
   - name: "Wook Yoon"
     page: "former-student"
     section: "Former PhD Students"
     photo: "profile/WY.jpg"
-    role: "Department of Mathematics, Technical University of Munich"
+    role: "Department of Mathematics, Duke University"
     email: "ynwk178 [at] snu [dot] ac [dot] kr"
     homepage: "https://sites.google.com/view/wookyoon-math"
     interests:
@@ -764,7 +827,7 @@ people:
   - name: "Sue Na Kim"
     page: "former-student"
     section: "Former Master Students"
-    role: "Mathematics Teacher in High School"
+    role: "Mathematics Teacher in High school"
     email: "ksn127 [at] snu [dot] ac [dot] kr"
   - name: "Hyerim Hong"
     page: "former-student"
@@ -803,7 +866,7 @@ people:
     photo: "profile/inyoung.jpg"
     role: "Dept. of Computer Science and Engineering, Seoul National University"
     note:
-      - "Ph.D. Program"
+      - "Ph. D. Program"
   - name: "So Young Park"
     page: "former-student"
     section: "Former Master Students"
@@ -814,7 +877,7 @@ people:
       - "Partial Differential Equations"
       - "Synchronization"
     note:
-      - "Ph.D. Program"
+      - "Ph. D. Program"
   - name: "Tao Zhou"
     page: "former-student"
     section: "Former Master Students"
@@ -824,7 +887,7 @@ people:
     interests:
       - "Nonlinear partial differential equations"
     note:
-      - "Ph.D. Program"
+      - "Ph. D. Program"
   - name: "Sang Woo Ryoo"
     page: "intern"
     section: "Former Interns"
@@ -1104,24 +1167,3 @@ people:
       - "Dynamical Systems"
     note:
       - "Ph.D. Student"
-  - name: "Xinyu Wang"
-    page: "visiting-student"
-    section: "Visiting Professors"
-    photo: "profile/Xinyu.jpg"
-    role: "Harbin Institute of Technology"
-    visiting_period: "2026.09.01 ~ 2027.08.31"
-    email: "wangxinyu97 [at] snu [dot] ac [dot] kr"
-    homepage: "https://sites.google.com/view/xinyuwangshomepage"
-    interests:
-      - "Collective dynamics"
-      - "Optimal transportation"
-  - name: "Fanqin Zeng"
-    page: "visiting-student"
-    section: "Visiting Professors"
-    photo: "profile/Fanqin%20Zeng.jpg"
-    role: "Harbin Engineering University"
-    visiting_period: "2026.09.01 ~ 2027.08.31"
-    email: "fqzeng93 [at] snu [dot] ac [dot] kr"
-    homepage: "https://sites.google.com/view/fqzenghomepage"
-    interests:
-      - "Collective behavior of multi-particle systems and kinetic equations"
