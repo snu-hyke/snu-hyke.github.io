@@ -4,6 +4,7 @@
 title: "HYKE-Hwarang Research Group"
 description: "Department of Mathematical Sciences, Seoul National University"
 lang: ko-KR
+timezone: Asia/Seoul
 
 # Organization site => served at the domain root.
 url: "https://snu-hyke.github.io"
